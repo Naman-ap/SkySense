@@ -1,0 +1,11 @@
+<div style="margin-left: 1pc">
+  <blockquote class="blockquote">
+  <h3><p  style="margin-right: 4pc;color: aqua;">What is Weather today</p>
+  </blockquote>
+  <form method="POST" style="margin-left: 1pc;">
+    {% csrf_token%}
+    {{form.city_name}}
+    
+    <button type="submit" class="btn btn-outline-success" style="margin-right: 5pc;">Search</button>
+  </form>
+</div>

@@ -1,0 +1,29 @@
+
+
+#sideform
+{
+ min-height: 100vh;  
+ background: url('https://i.pinimg.com/originals/a9/37/d4/a937d47b0d3d47df7a4faf34f3ee61f3.gif') no-repeat center center; 
+  /* Adjust as needed */
+  background-size: 100% 30%; /* Increases height to 100% while keeping width proportional */
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+.body
+{
+  background-color: #fff;
+}
+#td
+{
+  background-color: rgba(0, 0, 0, 0.2)!important;
+}
+#cat
+{
+ min-height: 100vh;  
+ background-color: rgba(216, 55, 55, 0.481);
+  background-size: 100% 100%; /* Increases height to 100% while keeping width proportional */
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
